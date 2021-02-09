@@ -10,6 +10,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Experience from "./components/Experience";
 import OtherProfile from "./components/OtherProfile";
 import FeedPage from "./components/FeedPage";
+import Messages from './components/Messages'
 
 class App extends React.Component {
   state = {
@@ -51,6 +52,7 @@ class App extends React.Component {
           />
         )}
         <Route path="/experience" exact component={Experience} />
+        <Route path='/messages' exact component={Messages} />
 
         <Footer />
       </BrowserRouter>

@@ -102,6 +102,7 @@ class Navbar extends React.Component {
                 Work
               </h5>
             </div>
+            <NavLink to='/messages' activeClassName="active-link" >
             <div className="navbar-msg mx-3 text-center">
               <AiFillMessage className="icon" />
               <h5
@@ -115,6 +116,7 @@ class Navbar extends React.Component {
                 Messagges
               </h5>
             </div>
+            </NavLink>
             <div className="navbar-notifications mx-3 text-center">
               <IoMdNotifications className="icon" />
               <h5
